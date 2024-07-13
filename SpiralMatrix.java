@@ -4,7 +4,7 @@ class SpiralMatrix{
     System.out.print("Enter the value for N :");
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
-    int[][] spiral=new spiral[n][n];
+    int[][] spiral=new int[n][n];
     int value =1;
     int mincol=0;
     int maxcol=n-1;
