@@ -16,7 +16,7 @@ class SpiralMatrix{
         value++;
       }
       for(int i=minrow+1;i<=maxrow;i++){
-        spiral[i[maxcol]=value;
+        spiral[i][maxcol]=value;
         value++;
       }
       for(int i=maxcol-1;i>=minrow;i--){
@@ -39,3 +39,4 @@ class SpiralMatrix{
       System.out.println();
     }
   }
+}
